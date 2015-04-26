@@ -13,6 +13,10 @@ This is my first impact.js plugin. This plugin can show a "Line of Sight" effect
 
 ![][image-1]
 
+## Live demo
+
+[Demo page on indienova.com](http://indienova.com/includes/los/demo/)
+
 ## Installation
 
 1. Put the plugin file here: `lib/plugins/mw_los.js`
@@ -54,7 +58,7 @@ if (this.los)
 * **startRadius** *start radius for RadialGradient*
 * **endColor** *end color for RadialGradient*
 * **endRadius** *end radius for RadialGradient*
-* **startColor** *stroke color for viewable area, dont't define it if you don't want the stroke*
+* **startColor** *stroke color for viewable area, don't define it if you don't want the stroke*
 
 # The MIT License (MIT)
 ## Copyright (c) 2015 MotionWalk Studio

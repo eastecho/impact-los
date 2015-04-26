@@ -5,9 +5,9 @@
 This is my first impact.js plugin. This plugin can show a "Line of Sight" effect in your impact.js games.
 
 ## Requirements
--The game must be tile based.
--There should be a player.
--The player must be in the middle of the screen.
+*The game must be tile based.
+*There should be a player.
+*The player must be in the middle of the screen.
 
 ## Example image
 
@@ -22,39 +22,39 @@ This is my first impact.js plugin. This plugin can show a "Line of Sight" effect
 
 Initialize:
 ```
-`this.los = new ig.MW_LineOfSight(
- // player must be set
- player          :   this.player,
- // Debug settings
- debug           :   true,
- // Color settings
- startColor      :   'rgba(0, 0, 0, 0)',
- endColor        :   'rgba(0, 0, 0, 0.55)',
- startRadius     :   ig.system.height/4,
- endRadius       :   ig.system.height/2,
- strokeColor     :   'rgba(255, 0, 255, 1)'
+this.los = new ig.MW_LineOfSight(
+    // player must be set
+    player          :   this.player,
+    // Debug settings
+    debug           :   true,
+    // Color settings
+    startColor      :   'rgba(0, 0, 0, 0)',
+    endColor        :   'rgba(0, 0, 0, 0.55)',
+    startRadius     :   ig.system.height/4,
+    endRadius       :   ig.system.height/2,
+    strokeColor     :   'rgba(255, 0, 255, 1)'
 });
 ```
-`
+
 Then put these codes in the `draw()` loop of the game:
 
 ```
-`if (this.los) 
- this.los.drawLOS();
- //this.los.drawForwardEdges();    // Draw the edges, normally don't show it
- this.los.drawCalculatedEdges();   // Draw the lights and shadow
+if (this.los) 
+    this.los.drawLOS();
+    //this.los.drawForwardEdges();    // Draw the edges, normally don't show it
+    this.los.drawCalculatedEdges();   // Draw the lights and shadow
 }
 ```
-`
+
 ## Parameters
 
 * **player (Required)** *the player instance* 
 * **debug** *debug mode true/false*
-* ** startColor** *start color for RadialGradient*
-* ** startRadius** *start radius for RadialGradient*
-* ** endColor** *end color for RadialGradient*
-* ** endRadius** *end radius for RadialGradient*
-* ** startColor** *stroke color for viewable area, dont't define it if you don't want the stroke*
+* **startColor** *start color for RadialGradient*
+* **startRadius** *start radius for RadialGradient*
+* **endColor** *end color for RadialGradient*
+* **endRadius** *end radius for RadialGradient*
+* **startColor** *stroke color for viewable area, dont't define it if you don't want the stroke*
 
 # The MIT License (MIT)
 ## Copyright (c) 2015 MotionWalk Studio

@@ -5,9 +5,9 @@
 This is my first impact.js plugin. This plugin can show a "Line of Sight" effect in your impact.js games.
 
 ## Requirements
-*The game must be tile based.
-*There should be a player.
-*The player must be in the middle of the screen.
+* The game must be tile based.
+* There should be a player.
+* The player must be in the middle of the screen.
 
 ## Example image
 

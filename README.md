@@ -1,13 +1,14 @@
-# MotionWalk Impact JS Line of Sight plugin
+# MotionWalk ImpactJS Line of Sight plugin
 
 ## Summary
 
-This is my first impact.js plugin. This plugin can show a "Line of Sight" effect in your impact.js games.
+This is my first ImpactJS plugin. This plugin can show a "Line of Sight" effect in your ImpactJS games.
 
 ## Requirements
 * The game must be tile based.
 * There should be a player.
 * The player must be in the middle of the screen.
+* and, ImpactJS (buy your own license for $99)
 
 ## Example image
 
